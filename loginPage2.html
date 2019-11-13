@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Ish&h.com | Admin Login.</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+        * {
+            margin: 0px;
+        }
+        .card-container {
+             background-image: url(tech2.jpeg);
+             background-size: 100%;
+             width: 100%;
+             height: 629px;
+             position: relative;
+             
+        }
+        .card {
+            width: 370px;
+            height: 344px;
+            border: solid #b74941 2px;
+            border-radius: 9px;
+            display: inline-block;
+            background: white;
+            position: absolute;
+            margin: 0 auto;
+            top: 198px;
+            left: 480px;
+        }
+
+        .cardone{
+            transform: rotate(2deg);
+        }
+
+        .cardtwo{
+            
+        }
+
+        .cardthree{
+            transform: rotate(-2deg);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+            margin-top: 40px;
+            font-size: 25px;
+            }
+        
+        .email:focus{
+         border:2px solid red;
+        }
+        .email{
+            width: 260px;
+            height: 39px;
+            background-color: #e5e3e3;
+            border-radius: 3px;
+            border: 0.8px solid darkgrey; 
+            font-size: 12px;
+            padding-left: 20px;
+            margin-left: 49px;
+            margin-top: 35px; 
+        }
+
+        .pass:focus{
+            border:2px solid red;
+        }
+        .pass{
+
+            width: 260px;
+            height: 39px;
+            background-color: #e5e3e3;
+            border-radius: 3px;
+            border: 0.8px solid darkgrey; 
+            font-size: 12px;
+            padding-left: 20px;
+            margin-left: 49px;
+            margin-top: 10px;   
+        }
+
+        .button{
+            width: 107px;
+            height: 27px;
+            background-color: #ffdd99;
+            border-radius: 25px;
+            border: 0.8px solid #cc9966;
+            font-family: Sans-serif; 
+            font-size: 14px;
+            padding-left: 10px;
+            margin-left: 49px;
+            margin-top: 20px;
+        }
+        
+        .button a:link {
+            color: #86592d;
+        }
+
+        .button a:active {
+                    color: #86592d;
+        }
+        .button a:visited {
+                    color: #86592d;
+        }
+        .atags {
+
+            font-size: 11px;
+            margin-left: 20px;
+            margin-top: 7px;
+            display: inline;
+            white-space: pre;
+        }
+        .atags a:link{
+            color: #008fb3;
+        }
+        .atags a:active{
+            color: #008fb3;
+        }
+        .atags a:visited {
+            color: #005266
+        }
+            
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+<body>
+    <!-- Navbar -->
+<div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+          <a href="memeberPage.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MEMBERS</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">ADMIN <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button">Logins</a>
+          </div>
+          </div>
+          </div>
+      </div>
+    
+    <!-- Login --> 
+        <div class="card-container">
+        <div class="card cardthree"></div>
+        <div class="card cardone"></div>
+        <div class="card cardtwo">
+            <h1>Login Form</h1> 
+            <form action="">
+                <input required type="text" class="email" required placeholder="Username">
+                <input required type="password" class="pass" required placeholder="Password" method="POST">
+                <button class="button"><b><a href="#">Log in</a></b></button> 
+        <div class="atags"> <a href="#">Register</a>    <a href="#">Lost your password?</a>
+            </form>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
